@@ -1,0 +1,6 @@
+---
+- name: "Installing {{ package }} (CentOS)"
+  dnf:
+    name: "{{ package }}"
+    state: latest
+    update_cache: yes

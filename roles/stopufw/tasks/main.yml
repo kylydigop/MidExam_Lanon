@@ -1,0 +1,5 @@
+---
+- name: Stopping UFW
+  service:
+    name: ufw
+    state: stopped
